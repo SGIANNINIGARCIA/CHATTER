@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #3e9c89;
+  padding: 20px;
+  display: inline-block;
+  border: 1px 1px; 
+  width: 20%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .form {
+    display: flex;
+    border-top: 2px solid #d3d3d3;
+    align-items: center;
+  }
+
+  .input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1em;
+    position: relative;
+    left: 5px;
+  }
+
+  .sendButton {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #568596;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+    position: relative;
+    right: 5px;
+  }
+}
